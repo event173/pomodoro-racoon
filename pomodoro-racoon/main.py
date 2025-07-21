@@ -4,8 +4,8 @@ import os
 import platform
 
 # Timer settings
-work_duration = 1 * 60  # 1 minute
-break_duration = 1 * 60  # 1 minute break
+work_duration = 25 * 60  # 25 minutes
+break_duration = 5 * 60  # 5 minutes break
 
 # Control flag
 is_running = False
