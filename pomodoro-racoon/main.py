@@ -189,7 +189,7 @@ def show_animation(stop_event, total_seconds, is_break=False):
             if percent_display <= 25:
                 quote = "💬 Fokus, Fokus, Fokus! 🎯"
             elif percent_display <= 50:
-                quote = "💬 Weiter so, Waschbär-Champ! 🦝💪"
+                quote = "💬 Weiter so, Champ! 🦝💪"
             elif percent_display <= 75:
                 quote = "💬 Gleich geschafft! 🚀"
             elif percent_display < 100:
