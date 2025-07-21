@@ -197,7 +197,7 @@ def show_animation(stop_event, total_seconds, is_break=False):
             else:
                 quote = "💬 BOOM! Geschafft! 🎉"
 
-        # Clear screen + print frame
+        # Clear screen + print frame 
         print("\033c", end="")  # works on most terminals
         print(current_frames[frame_index % len(current_frames)])
         print(f"[{bar}] {percent_display}%")
